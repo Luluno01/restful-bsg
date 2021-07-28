@@ -41,6 +41,7 @@ dependencies {
     compileOnly "io.ktor:ktor-server-core:1.6.0"
     compileOnly "io.ktor:ktor-server-netty:1.6.0"
     compileOnly "io.ktor:ktor-serialization:1.6.0"
+    compileOnly "io.ktor:ktor-client-core:1.6.0"
     compileOnly "ch.qos.logback:logback-classic:1.2.3"
     // bStats
     implementation 'org.bstats:bstats-bungeecord:2.2.1'

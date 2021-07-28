@@ -46,6 +46,15 @@ interface PluginStatus {
      * String representation of the storage backend in use
      */
     backend: string
+    /**
+     * Enable states of the lists
+     */
+    listStates: {
+        /**
+         * The list name: enabled state
+         */
+        [name: string]: boolean
+    }[]
 }
 ```
 
@@ -64,17 +73,20 @@ Return full whitelist/blacklist on success:
 type MainList = string[]
 ```
 
-`GET /whitelist/{uuid}`, `GET /blacklist/{uuid}`
+`GET /whitelist/{user}[?xbox=true|false|1|0]`, `GET /blacklist/{user}[?xbox=true|false|1|0]`
 
-Return if given UUID is in the whitelist/blacklist on success (`boolean`); or `400` for malformed UUID.
+Return if given UUID or username is in the whitelist/blacklist on success (`boolean`).
+Return `404` if given username is not found, or `400` for other errors.
 
-`POST|PUT /whitelist/{uuid}`, `POST|PUT /blacklist/{uuid}`
+`POST|PUT /whitelist/{user}[?xbox=true|false|1|0]`, `POST|PUT /blacklist/{user}[?xbox=true|false|1|0]`
 
-Add given UUID to the whitelist/blacklist, return if given UUID is added (`true`) or already in the list (`false`); or `400` for malformed UUID.
+Add given UUID or username to the whitelist/blacklist, return if given user is added (`true`) or already in the list (`false`).
+Return `404` if given username is not found, or `400` for other errors.
 
-`DELETE /whitelist/{uuid}`, `DELETE /blacklist/{uuid}`
+`DELETE /whitelist/{user}[?xbox=true|false|1|0]`, `DELETE /blacklist/{user}[?xbox=true|false|1|0]`
 
-Remove given UUID from the whitelist/blacklist, return if given UUID is removed (`true`) or not in the list in the first place (`false`); or `400` for malformed UUID.
+Remove given UUID or username from the whitelist/blacklist, return if given user is removed (`true`) or not in the list in the first place (`false`).
+Return `404` if given username is not found, or `400` for other errors.
 
 #### Lazy List
 

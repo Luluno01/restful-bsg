@@ -50,20 +50,20 @@ class ListController(routing: Routing, list: UUIDList) {
                 post { onUpdateList(this) }
                 patch { onUpdateList(this) }
             }
-            .route("/{id}") {
+            .route("/{user}") {
                 // Add one UUID
                 post {
-                    val id = call.getUUIDOr400() ?: return@post
+                    val id = call.getUUIDOr40x() ?: return@post
                     call.respond(list.add(id))
                 }
                 // Remove one UUID
                 delete {
-                    val id = call.getUUIDOr400() ?: return@delete
+                    val id = call.getUUIDOr40x() ?: return@delete
                     call.respond(list.remove(id))
                 }
                 // Check one UUID
                 get {
-                    val id = call.getUUIDOr400() ?: return@get
+                    val id = call.getUUIDOr40x() ?: return@get
                     call.respond(list.has(id))
                 }
             }
