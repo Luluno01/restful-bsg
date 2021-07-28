@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="restful-bsg.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/restful_bsg_main_jar</output-path>
+    <root id="archive" name="restful-bsg.main.jar">
+      <element id="module-output" name="restful-bsg.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.63.Final/d4d2fccea88c80e56d59ce1053c53df0f9f4f5db/netty-codec-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.alpn/alpn-api/1.1.3.v20160715/a1bf3a937f91b4c953acd13e8c9552347adc2198/alpn-api-1.1.3.v20160715.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.63.Final/f8c9b159dcb76452dc98a370a5511ff993670419/netty-codec-http-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.6.0/9cb1de1b3ecc2afc3eaabecd5d2007c421aac686/ktor-utils-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-host-common/1.6.0/dba3c661ab1978ee46930e25143d2dd963bdbc27/ktor-server-host-common-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.63.Final/d07cd47c101dfa655d6d5cc304d523742fd78ca8/netty-resolver-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.6.0/ae6a56a98631eeae41acb252b0c8e577443a1d0e/ktor-http-cio-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-core/1.6.0/2349f1c865c3a101a4168c15c709223c4d10986d/ktor-server-core-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.6.0/35bc19bdc392a5a288ea11bb8d828ab010b4e73d/ktor-io-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.63.Final/294e90696d8d6e20c889511d2484b37158cb9caa/netty-codec-http2-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.63.Final/40028ce5ac7c43f1c9a1439f74637cad04013e23/netty-buffer-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.6.0/20539a5ed749a908a474619a59463da012143381/ktor-http-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.63.Final/9a8bbe1ba082c9434e6f524d3864a53f340f2df/netty-transport-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.63.Final/e191f7cd212e679e9a97f4908dceafcff999db3b/netty-transport-native-kqueue-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.63.Final/65bdb6c40a76ef9c4269518614a1c4ef51051484/netty-transport-native-epoll-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network-jvm/1.6.0/6a488c8ac159cca99d192fa0749b7891b008e17a/ktor-network-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.63.Final/85bd91382ec54b300ad3ff59efccbb4fccb22a88/netty-transport-native-unix-common-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/1.6.0/da4544bae7cf34b79bf864556f67714d048c6192/ktor-server-netty-jvm-1.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.63.Final/879a43c2325b08e92e8967218b6ddb0ed4b7a0d3/netty-handler-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.63.Final/e1206b46384d4dcbecee2901f18ce65ecf02e8a4/netty-common-4.1.63.Final.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+    </root>
+  </artifact>
+</component>

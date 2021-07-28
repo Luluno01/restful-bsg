@@ -1,0 +1,2 @@
+host: 127.0.0.1  # The host/interface to which the server should listen
+port: 3090  # The port to which the server should listen

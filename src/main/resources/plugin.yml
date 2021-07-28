@@ -1,0 +1,11 @@
+name: RESTful-BSG
+main: cyou.untitled.restfulbsg.RESTfulBSG
+depends:
+  - BungeeSafeguard
+version: 1.0
+author: Untitled
+libraries:
+  - io.ktor:ktor-server-core:1.6.0
+  - io.ktor:ktor-server-netty:1.6.0
+  - io.ktor:ktor-serialization:1.6.0
+  - ch.qos.logback:logback-classic:1.2.3
