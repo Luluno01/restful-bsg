@@ -1,6 +1,5 @@
 package cyou.untitled.restfulbsg.commands
 
-import cyou.untitled.bungeesafeguard.BungeeSafeguard
 import cyou.untitled.bungeesafeguard.commands.subcommands.SubcommandRegistry
 import cyou.untitled.restfulbsg.RESTfulBSG
 import cyou.untitled.restfulbsg.commands.main.ReloadCommand
