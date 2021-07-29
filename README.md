@@ -11,6 +11,7 @@ Tested on Waterfall, version `git:Waterfall-Bootstrap:1.17-R0.1-SNAPSHOT:93773f9
   - [Commands](#commands)
     - [Main Command](#main-command)
       - [restful-bsg reload](#restful-bsg-reload)
+  - [Permission Nodes](#permission-nodes)
   - [API](#api)
     - [BungeeSafeguard Status](#bungeesafeguard-status)
     - [List Manipulation](#list-manipulation)
@@ -44,6 +45,12 @@ Reload configuration (from file `plugins/RESTful-BSG/config.yml`) and restart th
 ```
 restful-bsg reload
 ```
+
+## Permission Nodes
+
+| Permission        | Commands                       |
+| ----------------- | ------------------------------ |
+| `restfulbsg.main` | [restful-bsg *](#main-command) |
 
 ## API
 
