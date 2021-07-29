@@ -2,6 +2,7 @@ package cyou.untitled.restfulbsg
 
 import cyou.untitled.bungeesafeguard.BungeeSafeguard
 import cyou.untitled.bungeesafeguard.helpers.DependencyFixer
+import cyou.untitled.restfulbsg.commands.RESTfulBGSCommand
 import cyou.untitled.restfulbsg.server.Server
 import kotlinx.coroutines.asCoroutineDispatcher
 import kotlinx.coroutines.runBlocking
@@ -29,12 +30,17 @@ class RESTfulBSG: Plugin() {
         val pluginManager = proxy.pluginManager
         val bsg = pluginManager.getPlugin("BungeeSafeguard") as BungeeSafeguard
         if (bsg.enabled) server.startAsync(null)
+        proxy.pluginManager.registerCommand(this, RESTfulBGSCommand(this))
         logger.info("${ChatColor.GREEN}RESTful-BSG enabled")
     }
 
+    @Suppress("DEPRECATION")
     override fun onDisable() {
+        proxy.pluginManager.unregisterCommands(this)
         logger.info("Try stopping RESTful server")
-        server.stop()
+        runBlocking(executorService.asCoroutineDispatcher()) {
+            server.stop()
+        }
         logger.info("RESTful-BSG disabled")
     }
 }

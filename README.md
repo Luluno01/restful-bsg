@@ -8,6 +8,9 @@ Tested on Waterfall, version `git:Waterfall-Bootstrap:1.17-R0.1-SNAPSHOT:93773f9
 - [RESTful-BSG](#restful-bsg)
   - [Feature](#feature)
   - [Config](#config)
+  - [Commands](#commands)
+    - [Main Command](#main-command)
+      - [restful-bsg reload](#restful-bsg-reload)
   - [API](#api)
     - [BungeeSafeguard Status](#bungeesafeguard-status)
     - [List Manipulation](#list-manipulation)
@@ -26,6 +29,20 @@ untrusted public network.
 ```YAML
 host: 127.0.0.1  # The host/interface to which the server should listen
 port: 3090  # The port to which the server should listen
+```
+
+## Commands
+
+### Main Command
+
+Alias: `restfulbsg`, `restbsg`.
+
+#### restful-bsg reload
+
+Reload configuration (from file `plugins/RESTful-BSG/config.yml`) and restart the server:
+
+```
+restful-bsg reload
 ```
 
 ## API

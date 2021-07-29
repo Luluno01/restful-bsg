@@ -75,7 +75,10 @@ class Server(private val context: RESTfulBSG) {
         }
     }
 
-    fun stop() {
-        app?.stop(2000L, 3000L)
+    suspend fun stop() {
+        lock.withLock {
+            app?.stop(2000L, 3000L)
+            app = null
+        }
     }
 }

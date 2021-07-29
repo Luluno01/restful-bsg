@@ -18,6 +18,12 @@ repositories {
     }
 }
 
+sourceSets {
+    all {
+        languageSettings.useExperimentalAnnotation('kotlinx.coroutines.DelicateCoroutinesApi')
+    }
+}
+
 shadowJar {
     dependencies {
         exclude(dependency('org.jetbrains.kotlin.*:.*:.*'))
@@ -35,7 +41,7 @@ dependencies {
     compileOnly "org.jetbrains.kotlin:kotlin-stdlib"
     compileOnly 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.1'
     compileOnly 'net.md-5:bungeecord-api:1.17-R0.1-SNAPSHOT'
-    compileOnly name: 'BungeeSafeguard-3.0-SNAPSHOT-all'
+    compileOnly name: 'BungeeSafeguard-3.1-SNAPSHOT-all'
     // Ktor server
     // 1.6.1 is currently broken due to incorrect class loader
     compileOnly "io.ktor:ktor-server-core:1.6.0"
